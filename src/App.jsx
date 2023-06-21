@@ -1,11 +1,11 @@
 import React from 'react';
-import Admin from './admin';
+import Routtes from './Routtes';
 
 const App = () => {
   return (
     <div>
        
-        <Admin />
+        <Routtes />
       
     </div>
   );
