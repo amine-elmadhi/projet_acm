@@ -1,0 +1,158 @@
+.nav {
+    box-sizing: border-box;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 274px;
+    height: 100%;
+    background: #14133B;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding-left: 20px;
+    z-index: 99;
+}
+
+.toclose {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    background: #ffff;
+    border-radius: 15px;
+    border: 2px solid #14133B;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.25);
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: #14133B;
+    z-index: 1000;
+}
+
+.toclose:hover {
+    box-shadow: 1px 2px 8px rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+}
+
+.navs {
+    position: absolute;
+    padding-left: 40px;
+}
+
+.logo {
+    width: 130px;
+    height: 45px;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+
+.Principale,
+.Profil,
+.Commande,
+.parametre,
+.Déconnexion {
+    position: absolute;
+    width: 145.18px;
+    height: 24.9px;
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #D1D1D1;
+    text-decoration: none;
+}
+
+.Déconnexion,
+.settings {
+    position: relative;
+    bottom: -470px;
+    left: -10px;
+    padding-left: 10px;
+}
+
+.settings {
+    position: relative;
+    bottom: -424px;
+}
+
+.parametre,
+.logout {
+    position: relative;
+    bottom: -450px;
+    left: -10px;
+    padding-left: 10px;
+}
+
+.logout {
+    position: relative;
+    bottom: -500px;
+}
+
+.Commande,
+.command {
+    position: relative;
+    top: 180px;
+    left: -10px;
+    padding-left: 10px;
+}
+
+.command {
+    position: relative;
+    top: 185px;
+    left: -10px;
+}
+
+.Profil,
+.profile {
+    position: relative;
+    top: 150px;
+    left: -10px;
+    padding-left: 10px;
+}
+
+.profile {
+    position: relative;
+    top: 155px;
+    left: -11px;
+}
+
+.Principale {
+    position: relative;
+    top: 110px;
+    left: -8px;
+    padding-left: 10px;
+}
+
+.acceuil {
+    position: relative;
+    top: 120px;
+    left: -4px;
+}
+
+.Principale:hover {
+    color: #009D3D;
+    transform: translate(1S);
+}
+
+.Profil:hover {
+    color: #009D3D;
+}
+
+.Commande:hover {
+    color: #009D3D;
+}
+
+.parametre:hover {
+    color: #009D3D;
+}
+
+.acceuil:hover {
+    color: #009D3D;
+}
+
+.Déconnexion:hover {
+    color: #009D3D;
+}

@@ -1,0 +1,188 @@
+/* Default styles */
+
+.footer {
+    position: absolute;
+    top: 150%;
+    margin-left: 250px;
+    padding-left: 90px;
+    border-top: 2px solid #14133B;
+    width: 77%;
+    padding-top: 75px;
+}
+
+.photos {
+    position: absolute;
+    right: 80px;
+    top: 70px;
+}
+
+.logoblue {
+    position: absolute;
+    left: 50px;
+    top: 15px;
+}
+
+.rtext {
+    position: absolute;
+    right: 90px;
+    top: 15px;
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.4967px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.mails1 {
+    padding-top: 40px;
+}
+
+.mails1,
+.mails2 {
+    width: 291px;
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16.3088px;
+    line-height: 22px;
+    text-align: justify;
+    color: #000000;
+}
+
+.tel {
+    position: absolute;
+    left: 48%;
+    bottom: 16px;
+}
+
+.tele {
+    position: absolute;
+    left: 50%;
+    bottom: -4px;
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16.3088px;
+    line-height: 22px;
+    text-align: justify;
+    color: #000000;
+}
+
+.coppy {
+    position: absolute;
+    left: 83.4%;
+    bottom: 3px;
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.8726px;
+    line-height: 18px;
+    color: #000000;
+    opacity: 0.6;
+}
+
+
+/* Media queries 
+
+@media (max-width: 1300px) {
+    body {
+        height: 900px;
+    }
+    .logoblue {
+        position: absolute;
+        left: 80px;
+        top: 30px;
+    }
+    .rtext {
+        position: absolute;
+        right: 240px;
+        top: 260px;
+        font-family: 'Outfit', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14.4967px;
+        line-height: 25px;
+        color: #000000;
+    }
+    .footer {
+        position: relative;
+        bottom: -1650px;
+        left: -300px;
+        display: flex;
+        width: 100%;
+        border-top: none;
+        align-content: normal;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .tel {
+        position: absolute;
+        left: 20%;
+        bottom: -80%;
+    }
+    .tele {
+        position: absolute;
+        left: 27%;
+        bottom: -89%;
+        font-family: 'Outfit', sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16.3088px;
+        line-height: 22px;
+        text-align: justify;
+        color: #000000;
+    }
+    .coppy {
+        position: absolute;
+        left: 20%;
+        bottom: -110%;
+        font-family: 'Outfit', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10.8726px;
+        line-height: 18px;
+        color: #000000;
+        opacity: 0.6;
+    }
+    .photos {
+        position: absolute;
+        right: 235px;
+        top: 320px;
+    }
+}
+ */
+
+
+/*@media (max-width: 1024px) {
+    .coppy {
+        left: 40%;
+        bottom: -550%;
+    }
+    .photos {
+        right: 375px;
+        top: 390px;
+    }
+    .rtext {
+        right: 385px;
+        top: 320px;
+    }
+    .tele {
+        left: 340px;
+        top: 262px;
+    }
+    .tel {
+        left: 315px;
+        top: 280px;
+    }
+    .mails1,
+    .mails2 {
+        position: absolute;
+        top: 140px;
+        left: 35%;
+    }
+    .logoblue {
+        left: 35%;
+        top: 30px;
+    }
+}*/

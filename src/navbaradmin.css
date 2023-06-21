@@ -1,0 +1,143 @@
+.navadmin {
+    box-sizing: border-box;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 274px;
+    height: 100%;
+    background: #14133B;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding-left: 20px;
+    z-index: 99;
+}
+
+.tocloseadmin {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    background: #ffff;
+    border-radius: 15px;
+    border: 2px solid #14133B;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.25);
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: #14133B;
+    z-index: 1000;
+}
+
+.tocloseadmin:hover {
+    box-shadow: 1px 2px 8px rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+}
+
+.navsadmin {
+    position: absolute;
+    padding-left: 40px;
+}
+
+.logoadmin {
+    width: 130px;
+    height: 45px;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+
+.Ajout,
+.Modif,
+.parametre,
+.Déconnexion {
+    background: transparent;
+    position: absolute;
+    width: 145.18px;
+    height: 24.9px;
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #D1D1D1;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+.Déconnexion,
+.settings {
+    position: relative;
+    bottom: -470px;
+    left: -10px;
+    padding-left: 10px;
+}
+
+.settings {
+    position: relative;
+    bottom: -424px;
+}
+
+.parametre,
+.logout {
+    position: relative;
+    bottom: -450px;
+    left: -10px;
+    padding-left: 10px;
+}
+
+.logout {
+    position: relative;
+    bottom: -500px;
+}
+
+.Modif {
+    font-family: 'Open Sans', sans-serif;
+    color: #FFFFFF;
+    border-radius: 56px;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    position: relative;
+    top: 150px;
+    left: -10px;
+    padding-left: 10px;
+}
+
+.Ajout {
+    font-family: 'Open Sans', sans-serif;
+    color: #D1D1D1;
+    position: relative;
+    top: 116px;
+    left: -30px;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.acceuil {
+    position: relative;
+    top: 120px;
+    left: -4px;
+}
+
+.Ajout:hover {
+    color: #009D3D;
+}
+
+.parametre:hover {
+    color: #009D3D;
+}
+
+.Déconnexion:hover {
+    color: #009D3D;
+}
+
+.Ajoutimg {
+    position: relative;
+    top: 120px;
+    left: -2px;
+    padding-left: 10px;
+}

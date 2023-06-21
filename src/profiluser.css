@@ -1,0 +1,261 @@
+.Profileimage {
+    position: absolute;
+    top: 3%;
+    left: 50%;
+}
+
+.num1,
+.num2,
+.num3 {
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 55px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #304E94;
+}
+
+.num1 {
+    position: absolute;
+    top: 30%;
+    left: 27%;
+}
+
+.num2 {
+    position: absolute;
+    top: 30%;
+    left: 53.4%;
+}
+
+.num3 {
+    position: absolute;
+    top: 30%;
+    right: 10%;
+}
+
+.mot1,
+.mot2,
+.mot3 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 36px;
+    color: #304E94;
+}
+
+.mot1 {
+    position: absolute;
+    top: 42%;
+    left: 27.2%;
+}
+
+.mot2 {
+    position: absolute;
+    top: 42%;
+    left: 47%;
+}
+
+.mot3 {
+    position: absolute;
+    top: 42%;
+    right: 8%;
+}
+
+.data {
+    position: absolute;
+    width: 310px;
+    height: 330px;
+    left: 470px;
+    top: 65%;
+    background: #14133B;
+    border-radius: 20px;
+}
+
+.data1 {
+    position: absolute;
+    width: 310px;
+    height: 330px;
+    right: 190px;
+    top: 65%;
+    background: #14133B;
+    border-radius: 20px;
+}
+
+.datan {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    padding-left: 10%;
+    padding-top: 2%;
+}
+
+.datan {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    padding-left: 10%;
+    padding-top: 3.7%;
+}
+
+.datau {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    padding-left: 10%;
+}
+
+
+/* Media queries  
+
+@media (max-width: 768px) {
+    .Profileimage {
+        position: absolute;
+        top: 3%;
+        left: 15%;
+    }
+    .num1 {
+        position: absolute;
+        top: 30%;
+        left: 28%;
+    }
+    .mot1 {
+        position: absolute;
+        top: 43%;
+        right: 20%;
+    }
+    .num2 {
+        position: absolute;
+        top: 60%;
+        left: 28%;
+    }
+    .mot2 {
+        position: absolute;
+        top: 74%;
+        left: 25px;
+        font-size: 16px;
+    }
+    .num3 {
+        position: absolute;
+        top: 100%;
+        left: 27%;
+    }
+    .mot3 {
+        position: absolute;
+        top: 114%;
+        left: 90px;
+    }
+    .data {
+        position: absolute;
+        width: 280px;
+        height: 335px;
+        left: 20px;
+        top: 910px;
+        background: #14133B;
+        border-radius: 20px;
+    }
+    .data1 {
+        position: absolute;
+        width: 280px;
+        height: 257px;
+        left: 20px;
+        top: 1310px;
+        background: #14133B;
+        border-radius: 20px;
+    }
+}
+
+@media (max-width: 1223px) {
+    .Profileimage {
+        top: 5%;
+        left: 30%;
+    }
+    .num1 {
+        top: 40%;
+        left: 36%
+    }
+    .mot1 {
+        top: 55%;
+        left: 36%
+    }
+    .num2 {
+        top: 65%;
+        left: 36%
+    }
+    .mot2 {
+        top: 80%;
+        left: 28%
+    }
+    .num3 {
+        top: 90%;
+        left: 36%
+    }
+    .mot3 {
+        top: 105%;
+        left: 36%
+    }
+    .data {
+        left: 215px;
+        top: 810px;
+    }
+    .data1 {
+        left: 215px;
+        top: 1210px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .num3 {
+        top: 250px;
+        left: 17px;
+    }
+    .mot3 {
+        top: 330px;
+        left: -10px;
+    }
+    .num2 {
+        top: 250px;
+        left: 580px;
+    }
+    .mot2 {
+        top: 331px;
+        left: 480px;
+    }
+    .num1 {
+        top: 250px;
+        left: 265px;
+    }
+    .mot1 {
+        top: 331px;
+        left: 270px;
+    }
+    .data {
+        top: 470px;
+        left: 280px;
+        width: 280px;
+        height: 335px;
+    }
+    .data1 {
+        top: 470px;
+        left: 680px;
+        width: 280px;
+        height: 335px;
+    }
+}*/

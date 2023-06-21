@@ -1,0 +1,182 @@
+ .activits {
+     padding-top: 40px;
+     padding-left: 310px;
+     font-family: 'Outfit', sans-serif;
+     font-style: normal;
+     font-weight: bolder;
+     font-size: 25px;
+     display: flex;
+     align-items: center;
+     color: #000000;
+ }
+ 
+ .activitesadmin {
+     width: 900px;
+     height: 550px;
+     margin: 100px 450px;
+     background: #FFFFFF;
+     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+     border-radius: 6.87747px;
+     overflow: scroll;
+ }
+ 
+ .text0 {
+     margin-top: 10px;
+     margin-left: 30px;
+     font-family: 'Outfit', sans-serif;
+     font-style: normal;
+     font-weight: 600;
+     font-size: 18px;
+     line-height: 17px;
+     color: #000000;
+ }
+ 
+ .text1 {
+     margin-left: 30px;
+     margin-top: -30px;
+     font-family: 'Inter', sans-serif;
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 19px;
+     display: inline-block;
+     color: #14133B;
+ }
+ 
+ .activit1admin {
+     width: 70%;
+     height: 80px;
+     margin: 20px auto;
+     background: #FFFFFF;
+     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+     border-radius: 6.87747px;
+ }
+ 
+ .Supprimer {
+     position: relative;
+     top: 40px;
+     left: 6%;
+     font-family: 'Open Sans', sans-serif;
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 28px;
+     color: #FFFFFF;
+     border-radius: 56px;
+     padding: 5px 15px;
+     background: #8D1D5C;
+     border: 2px solid #8D1D5C;
+     box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.25);
+ }
+ 
+ .btn1 {
+     position: relative;
+     top: 40px;
+     left: 40px;
+     font-family: 'Open Sans', sans-serif;
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 28px;
+     color: #FFFFFF;
+     border-radius: 56px;
+     padding: 10px 20px;
+     background: #14133B;
+     text-decoration: none;
+     border: 2px solid #14133B;
+     box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.25);
+ }
+ 
+ .Modifier {
+     position: relative;
+     top: 40px;
+     left: 60px;
+     font-family: 'Open Sans', sans-serif;
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 28px;
+     color: #FFFFFF;
+     border-radius: 56px;
+     padding: 5px 20px;
+     background: #81BD62;
+     text-decoration: none;
+     border: 2px solid #81BD62;
+     box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.25);
+ }
+ 
+ .Supprimer:hover,
+ .btn1:hover,
+ .Modifier:hover {
+     color: #04293A;
+     background-color: #FFFFFF;
+     transition: all 0.5s;
+     cursor: pointer;
+ }
+ 
+ .activit1admin {
+     width: 95%;
+     height: 130px;
+     margin: 20px auto;
+     background: #FFFFFF;
+     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+     border-radius: 9px;
+ }
+ 
+ .one,
+ .two,
+ .three {
+     display: flex;
+     flex-direction: column;
+ }
+ 
+ .form-interface {
+     background: #FFFFFF;
+     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+     border-radius: 6.87747px;
+     display: flex;
+     flex-direction: column;
+     margin-left: 275px;
+     padding-left: 40px;
+     padding-bottom: 10px;
+ }
+ 
+ .form-interface form {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+ }
+ 
+ .form-interface input {
+     width: 300px;
+     height: 40px;
+     padding: 8px;
+     margin-bottom: 20px;
+     font-size: 16px;
+     border: 1px solid #ccc;
+     border-radius: 4px;
+ }
+ 
+ .form-interface button {
+     width: 150px;
+     height: 40px;
+     background-color: #14133B;
+     color: #fff;
+     font-size: 16px;
+     border: none;
+     border-radius: 50px;
+     cursor: pointer;
+ }
+ 
+ .form-interface button:hover {
+     background-color: #81BD62;
+ }
+ 
+ .last {
+     margin-top: 89px;
+     margin-left: 120px;
+ }
+ 
+ .dateOfAjout {
+     padding-bottom: 10px;
+ }
