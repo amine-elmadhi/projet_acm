@@ -165,7 +165,7 @@ class bduseradmin extends Component {
               <button className="modif" onClick={() => this.handleModifyProject(index)}>
                 Modifier
               </button>
-              <Link exact to="/Admin" className="accée">
+              <Link exact to="/Hébergement" className="accée">
                 Voir accée
               </Link>
             </div>

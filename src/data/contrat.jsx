@@ -30,34 +30,7 @@ class contrat extends Component {
             <p className='dis0'>  30/09/2020</p>
           </div>
 
-          <div className='activit2cn'>
-            <p className='text0'>contrat 2  </p>
-            <p className='dis0'>  30/09/2020</p>
-          </div>
-          <div className='activit3cn'>
-            <p className='text0'>contrat 3  </p>
-            <p className='dis0'>  30/09/2020</p>
-          </div>
-          <div className='activit4cn'>
-            <p className='text0'>contrat 4  </p>
-            <p className='dis0'>  30/09/2020</p>
-          </div>
-          <div className='activit5cn'>
-            <p className='text0'>contrat 5  </p>
-            <p className='dis0'>  30/09/2020</p>
-          </div>
-          <div className='activit6cn'>
-            <p className='text0'>contrat 6   </p>
-            <p className='dis0'>  30/09/2020</p>
-          </div>
-          <div className='activit7cn'>
-            <p className='text0'>contrat 7   </p>
-            <p className='dis0'>  30/09/2020</p>
-          </div>
-          <div className='activit8cn'>
-            <p className='text0'>contrat 8   </p>
-            <p className='dis0'>  30/09/2020</p>
-          </div>
+          
         </div>
         <Footer />
       </div>

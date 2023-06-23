@@ -8,6 +8,7 @@ import Hébergement from './data/Hébergement';
 import Chg from './data/chg';
 import Version from './data/version';
 import Contrat from './data/contrat';
+import Contratadmin from './data/contratadmin';
 import Profiluser from './profiluser';
 import Login from './login';
 import Bduseradmin from './data/bduseradmin';
@@ -23,6 +24,7 @@ class Routtes extends Component {
           <Route path="/chg" element={<Chg />} />
           <Route path="/version" element={<Version />} />
           <Route path="/contrat" element={<Contrat />} />
+          <Route path="/Contratadmin" element={<Contratadmin />} />
           <Route path="/Commande" element={<Commande />} />
           <Route path="/Admin" element={<Admin />} />
           <Route path="/bduseradmin" element={<Bduseradmin />} />
@@ -35,4 +37,3 @@ class Routtes extends Component {
 }
 
 export default Routtes;
- 
