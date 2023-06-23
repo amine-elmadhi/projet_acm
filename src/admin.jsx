@@ -1,6 +1,6 @@
 import React, { Component, createRef } from 'react';
 import Navbaradmin from './navbaradmin';
-import Footer from './footer';
+ 
 import './admin.css';
 import { Link } from 'react-router-dom';
 
@@ -36,7 +36,7 @@ class FormInterface extends Component {
     return (
       <div className="form-interface">
         <form onSubmit={this.handleSubmit}>
-          <div className='one'>
+          <div className='input1'>
           <p> Name :</p> 
           <input
             type="text"
@@ -55,7 +55,7 @@ class FormInterface extends Component {
           />
           </div>
           <br />
-          <div className='two'>
+          <div className='input2'>
           <p> PhoneNumber:</p>
           <input
             type="tel"
@@ -73,7 +73,7 @@ class FormInterface extends Component {
             onChange={this.handleChange}
           />
            </div>
-           <div className='three'>
+           <div className='input3'>
           <p className='dateOfAjouttext'> Date d'ajout :</p>
           <input
           className='dateOfAjout'
@@ -208,7 +208,7 @@ class Admin extends Component {
 
         <div ref={this.formInterfaceRef} />
         {this.state.showForm && <FormInterface handleAjout={this.handleAjout} />}
-        <Footer />
+      
       </div>
     );
   }

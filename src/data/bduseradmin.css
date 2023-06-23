@@ -1,3 +1,7 @@
+.bduseradminbody {
+    height: 3000px;
+}
+
 .not {
     position: absolute;
     top: 5px;
@@ -86,7 +90,7 @@
 
 .accée {
     position: relative;
-    right: -440px;
+    right: -350px;
     top: 23px;
     padding: 3px 8px 3px 8px;
     border: 2px solid #04293A;
@@ -101,11 +105,92 @@
     text-decoration: none;
 }
 
+.delete {
+    position: relative;
+    right: -340px;
+    top: 23px;
+    padding: 3px 8px 2px 8px;
+    border: 2px solid #04293A;
+    border-radius: 9px;
+    background-color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 10px;
+    line-height: 14px;
+    color: #04293A;
+    text-decoration: none;
+}
+
+.modif {
+    position: relative;
+    right: -345px;
+    top: 23px;
+    padding: 3px 8px 2px 8px;
+    border: 2px solid #04293A;
+    border-radius: 9px;
+    background-color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 10px;
+    line-height: 14px;
+    color: #04293A;
+    text-decoration: none;
+}
+
+.modif:hover,
+.delete:hover {
+    color: #FFFFFF;
+    background-color: #8D1D5C;
+    transition: all 0.5s;
+    cursor: pointer;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
 .accée:hover {
     color: #FFFFFF;
     background-color: #04293A;
     transition: all 0.5s;
     cursor: pointer;
+}
+
+.subbd {
+    padding: 3px 8px 2px 8px;
+    border: 2px solid #04293A;
+    border-radius: 10px !important;
+    background-color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 10px;
+    line-height: 14px;
+    color: #04293A;
+    text-decoration: none;
+    -webkit-border-radius: 10px !important;
+    -moz-border-radius: 10px !important;
+    -ms-border-radius: 10px !important;
+    -o-border-radius: 10px !important;
+}
+
+.modifbd {
+    position: relative;
+    right: 130px;
+    bottom: 33px;
+    padding: 3px 8px 2px 8px;
+    border: 2px solid #04293A;
+    border-radius: 10px !important;
+    background-color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 10px;
+    line-height: 14px;
+    color: #04293A;
+    text-decoration: none;
 }
 
 .voirbd:hover {
@@ -160,26 +245,13 @@
 }
 
 .activitepss {
-    position: absolute;
     width: 650px;
-    height: 500px;
-    left: 800px;
-    top: 130px;
+    max-height: 500px;
+    overflow-y: auto;
     background: #FFFFFF;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
     border-radius: 6.87747px;
-    overflow: scroll;
-}
-
-.activit0ps {
-    position: absolute;
-    top: 20px;
-    left: 7%;
-    width: 530px;
-    height: 70px;
-    background: #FFFFFF;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
-    border-radius: 6.87747px;
+    padding: 10px;
 }
 
 .nomproj {
@@ -195,12 +267,16 @@
 }
 
 .activit2ps {
-    position: absolute;
-    top: 100px;
-    left: 7%;
+    position: relative;
+    top: 10px;
+    margin-bottom: 15px;
     width: 530px;
     height: 70px;
     background: #FFFFFF;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
     border-radius: 6.87747px;
+    -webkit-border-radius: 6.87747px;
+    -moz-border-radius: 6.87747px;
+    -ms-border-radius: 6.87747px;
+    -o-border-radius: 6.87747px;
 }

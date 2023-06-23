@@ -24,27 +24,27 @@ class Principale extends Component {
 
         <p className='activitspr'>les activités avec ACM :</p>
         <div className='activit1pr'>
-        <Link exact to="/Datauser" className='voirpr'> Voir tout</Link>
+        <Link exact to="/bduseradmin" className='voirpr'> Voir tout</Link>
           <div className='bg'><img className="bd" src={bd} alt="bd" /></div>
-          <p className='text'>base de données</p>
+          <p className='text'> Hébergement</p>
           <p className='dis'>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
         </div>
         <div className='activit2pr'>
           <Link exact to="/contrat" className='voirpr'> Voir tout</Link>
           <div className='bg'><img className="bd" src={Logo} alt="bd" /></div>
-          <p className='text'>contrat</p>
+          <p className='text'>Contrat</p>
           <p className='dis'>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
         </div>
         <div className='activit3pr'>
           <Link exact to="/chg" className='voirpr'> Voir tout</Link>
           <div className='bg'><img className="bd" src={Vector} alt="bd" /></div>
-          <p className='text'>chartes graphique</p>
+          <p className='text'>Chartes graphique</p>
           <p className='dis'>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
         </div>
         <div className='activit4pr'>
           <Link exact to="/version" className='voirpr'> Voir tout</Link>
           <div className='bg'><img className="bd" src={version} alt="bd" /></div>
-          <p className='text'>version sites</p>
+          <p className='text'>Version sites</p>
           <p className='dis'>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
         </div>
 

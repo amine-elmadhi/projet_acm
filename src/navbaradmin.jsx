@@ -5,7 +5,7 @@ import logoacm from './images/logoacm.png';
 import logout from './images/logout.png';
 import settings from './images/settings.png';
 import commande from './images/commande.png';
-class Navbar extends Component {
+class navbaradmin extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -48,4 +48,4 @@ class Navbar extends Component {
   }
 }
 
-export default Navbar;
+export default navbaradmin;

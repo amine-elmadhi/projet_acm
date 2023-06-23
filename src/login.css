@@ -89,19 +89,28 @@
     color: #000000;
 }
 
-.mail {
+.maillog {
     box-sizing: border-box;
-    width: 477px;
+    width: 340px;
     margin-left: 37px;
     height: 52px;
     border: 1px solid rgba(0, 0, 0, 0.21);
     border-radius: 10px;
 }
 
-.see {
+.mail {
+    box-sizing: border-box;
+    width: 475px;
+    margin-left: 37px;
+    height: 52px;
+    border: 1px solid rgba(0, 0, 0, 0.21);
+    border-radius: 10px;
+}
+
+.seepass {
     position: relative;
-    left: -40px;
-    top: 5px;
+    left: 500px;
+    top: -35px;
 }
 
 .one {
@@ -126,7 +135,7 @@
 }
 
 .two {
-    margin-top: 1px;
+    margin-top: -0px;
     margin-left: 15px;
     display: flex;
     flex-direction: row;

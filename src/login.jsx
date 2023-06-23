@@ -75,17 +75,17 @@ class Login extends Component {
                 <div className="password-wrapper">
                   <input
                     type={showPassword ? 'text' : 'password'}
-                    className="mail"
+                    className="maillog"
                     value={password}
                     onChange={(e) => this.setState({ password: e.target.value })}
                   />
-                  <img className="see" src={Eyeoff} alt="voir" onClick={this.handleTogglePasswordVisibility} />
+                  <img className="seepass" src={Eyeoff} alt="voir" onClick={this.handleTogglePasswordVisibility} />
                 </div>
                 <div className="number">
                   <p className="two2" onClick={this.handleGoBackToEmail}>1</p>
                   <p className="one1" onClick={this.handlePasswordVerification}>2</p>
                 </div>
-                <Link exact to="/Admin"> <button className="sub" > Soumettre </button></Link>
+                <Link exact to="/Admin"> <button className="sub" > <span>Soumettre</span> </button></Link>
               </React.Fragment>
             ) : (
               <React.Fragment>
