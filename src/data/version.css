@@ -148,9 +148,10 @@
 }
 
 .activit0vrs {
-    position: absolute;
+    position: relative;
     top: 20px;
     left: 7%;
+    margin-bottom: 12px;
     width: 530px;
     height: 70px;
     background: #FFFFFF;
@@ -172,6 +173,20 @@
     color: #000000;
 }
 
+.disvers {
+    position: absolute;
+    right: -30px;
+    top: -10px;
+    width: 117px;
+    height: 17px;
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 17px;
+    color: #000000;
+}
+
 .text0 {
     position: absolute;
     left: 18px;
@@ -182,81 +197,4 @@
     font-size: 18px;
     line-height: 17px;
     color: #000000;
-}
-
-.activit2vrs {
-    position: absolute;
-    top: 100px;
-    left: 7%;
-    width: 530px;
-    height: 70px;
-    background: #FFFFFF;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
-    border-radius: 6.87747px;
-}
-
-.activit3vrs {
-    position: absolute;
-    top: 180px;
-    left: 7%;
-    width: 530px;
-    height: 70px;
-    background: #FFFFFF;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
-    border-radius: 6.87747px;
-}
-
-.activit4vrs {
-    position: absolute;
-    top: 260px;
-    left: 7%;
-    width: 530px;
-    height: 70px;
-    background: #FFFFFF;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
-    border-radius: 6.87747px;
-}
-
-.activit5vrs {
-    position: absolute;
-    top: 340px;
-    left: 7%;
-    width: 530px;
-    height: 70px;
-    background: #FFFFFF;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
-    border-radius: 6.87747px;
-}
-
-.activit6vrs {
-    position: absolute;
-    top: 420px;
-    left: 7%;
-    width: 530px;
-    height: 70px;
-    background: #FFFFFF;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
-    border-radius: 6.87747px;
-}
-
-.activit7vrs {
-    position: absolute;
-    top: 500px;
-    left: 7%;
-    width: 530px;
-    height: 70px;
-    background: #FFFFFF;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
-    border-radius: 6.87747px;
-}
-
-.activit8vrs {
-    position: absolute;
-    top: 580px;
-    left: 7%;
-    width: 530px;
-    height: 70px;
-    background: #FFFFFF;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
-    border-radius: 6.87747px;
 }

@@ -42,7 +42,7 @@ class Principale extends Component {
           <p className='dis'>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
         </div>
         <div className='activit4pr'>
-          <Link exact to="/version" className='voirpr'> Voir tout</Link>
+          <Link exact to="/Versionadmin" className='voirpr'> Voir tout</Link>
           <div className='bg'><img className="bd" src={version} alt="bd" /></div>
           <p className='text'>Version sites</p>
           <p className='dis'>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>

@@ -63,9 +63,9 @@ class contratadmin extends Component {
     return this.state.contracts.map((contract, index) => (
       <div className='activit0cn' key={index}>
         <p className='text0'>{contract.projectName}</p>
-        <p className='dis0'>{contract.date}</p>
-        <button onClick={() => this.handleViewFile(index)}>View File</button>
-        <button onClick={() => this.handleDeleteContract(index)}>Delete</button>
+        <p className='disvers'>{contract.date}</p>
+        <button className="delete" onClick={() => this.handleViewFile(index)}>View File</button>
+        <button  className="modif" onClick={() => this.handleDeleteContract(index)}>Delete</button>
       </div>
     ));
   }
