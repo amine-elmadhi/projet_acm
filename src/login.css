@@ -91,11 +91,17 @@
 
 .maillog {
     box-sizing: border-box;
-    width: 340px;
+    width: 475px !important;
     margin-left: 37px;
     height: 52px;
     border: 1px solid rgba(0, 0, 0, 0.21);
     border-radius: 10px;
+    padding: 5px;
+    font-size: 14px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 
 .mail {
@@ -108,9 +114,9 @@
 }
 
 .seepass {
-    position: relative;
-    left: 500px;
-    top: -35px;
+    position: absolute;
+    left: 470px;
+    top: 255px;
 }
 
 .one {
@@ -267,7 +273,8 @@
     cursor: pointer;
 }
 
-@keyframes sh0 {
+
+/*@keyframes sh0 {
     0% {
         transform: rotate(0deg) translate3d(0, 0, 0);
     }
@@ -297,6 +304,7 @@
     animation: storm 0.7s ease-in-out both;
     animation-delay: 0.06s;
 }
+*/
 
 .sub::before,
 .sub::after {
