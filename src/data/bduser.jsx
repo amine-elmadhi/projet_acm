@@ -20,7 +20,7 @@ class Datauser extends Component {
         </div>
         <p className='activitsps'>les activités avec ACM :</p>
         <div className='activit1ps'>
-        <Link exact to="/Principale" className='voirbd'> Retour</Link>
+        <Link exact to="/Principaleadmin" className='voirbd'> Retour</Link>
           <div className='bg'><img className="bd" src={bd} alt="bd" /></div>
           <p className='text'>Hébergement</p>
           <p className='dis'>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>

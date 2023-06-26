@@ -146,7 +146,7 @@ class bduseradmin extends Component {
         </div>
         <p className="activitsps">les activités avec ACM :</p>
         <div className="activit1ps">
-          <Link exact to="/Principale" className="voirbd">
+          <Link exact to="/Principaleadmin" className="voirbd">
             Retour
           </Link>
           <div className="bg">

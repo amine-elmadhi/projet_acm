@@ -80,7 +80,7 @@ class chartegadmin extends Component {
         </div>
         <p className='activitscg'>les activités avec ACM :</p>
         <div className='activit1cg'>
-          <Link exact to="/Principale" className='voircg'> Retour</Link>
+          <Link exact to="/Principaleadmin" className='voircg'> Retour</Link>
           <div className='bg'><img className="bd" src={Vector} alt="bd" /></div>
           <p className='text'>chartes graphique</p>
           <p className='dis'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>

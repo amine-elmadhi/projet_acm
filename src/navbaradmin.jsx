@@ -33,11 +33,11 @@ class navbaradmin extends Component {
             <img className="logoadmin" src={logoacm} alt="ACM Logo" /><br />
             <div className="navsadmin">
             <img className="Ajoutimg" src={commande} alt="ACM Logo" />
-            
+
               <button className="Ajout" onClick={this.props.handleAjout}>Ajout</button><br />
+
               <img className="profile" src={profil} alt="ACM Logo" />
-              <Link exact to="/Admin" className="Profil"> Ajout Client</Link><br />
-              
+              <Link exact to="/admin" className="Profil"> Ajout CLient</Link><br />
               <img className="logout" src={logout} alt="ACM Logo" />
               <Link exact to="https://acm-marketing.tn/" className="parametre">ACM Page</Link><br />
               <img className="settings" src={settings} alt="ACM Logo" />
