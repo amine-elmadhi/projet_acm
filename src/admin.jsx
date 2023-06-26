@@ -184,7 +184,7 @@ class Admin extends Component {
               <div className="activitadmin">
                 <p className="text0">{client.name}</p>
                 <p className="text1">{client.email}</p>
-                <Link className="btn1" exact to="/">
+                <Link className="btn1" exact to="/Principale">
                   Voir plus
                 </Link>
                 <button

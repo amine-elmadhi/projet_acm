@@ -93,7 +93,7 @@ class VersionAdmin extends Component {
         </div>
         <p className='activitsvrs'>les activités avec ACM :</p>
         <div className='activit1vrs'>
-          <Link exact to='/' className='voirvrs'>
+          <Link exact to='/Principale' className='voirvrs'>
             Retour
           </Link>
           <div className='bg'>

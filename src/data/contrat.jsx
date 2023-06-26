@@ -19,7 +19,7 @@ class contrat extends Component {
         </div>
         <p className='activitscn'>les activités avec ACM :</p>
         <div className='activit1cn'>
-        <Link exact to="/" className='voircn'> Retour</Link>
+        <Link exact to="/Principale" className='voircn'> Retour</Link>
         <div className='bg'><img className="bd" src={Logo} alt="bd" /></div>
           <p className='text'>contrat</p>
           <p className='dis'>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>

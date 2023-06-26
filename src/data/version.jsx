@@ -19,7 +19,7 @@ class version extends Component {
         </div>
         <p className='activitsvrs'>les activités avec ACM :</p>
         <div className='activit1vrs'>
-        <Link exact to="/" className='voirvrs'> Retour</Link>
+        <Link exact to="/Principale" className='voirvrs'> Retour</Link>
         <div className='bg'><img className="bd" src={Version} alt="bd" /></div>
           <p className='text'>version sites</p>
           <p className='dis'>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
@@ -34,30 +34,7 @@ class version extends Component {
             <p className='text0'>version site 2  </p>
             <p className='dis0'>  30/09/2020</p>
           </div>
-          <div className='activit3vrs'>
-            <p className='text0'>version site 3  </p>
-            <p className='dis0'>  30/09/2020</p>
-          </div>
-          <div className='activit4vrs'>
-            <p className='text0'>version site 4  </p>
-            <p className='dis0'>  30/09/2020</p>
-          </div>
-          <div className='activit5vrs'>
-            <p className='text0'>version site 5  </p>
-            <p className='dis0'>  30/09/2020</p>
-          </div>
-          <div className='activit6vrs'>
-            <p className='text0'>version site 6   </p>
-            <p className='dis0'>  30/09/2020</p>
-          </div>
-          <div className='activit7vrs'>
-            <p className='text0'>version site 7   </p>
-            <p className='dis0'>  30/09/2020</p>
-          </div>
-          <div className='activit8vrs'>
-            <p className='text0'>version site 8   </p>
-            <p className='dis0'>  30/09/2020</p>
-          </div>
+ 
         </div>
         <Footer />
       </div>

@@ -164,7 +164,7 @@ class Hébergement extends Component {
         </div>
 
         <div className="head">
-          <Link to="/Datauser" className="Retour">
+          <Link to="/bduseradmin" className="Retour">
             Retour
           </Link>
           <a href="#module">Module</a>

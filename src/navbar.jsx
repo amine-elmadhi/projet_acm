@@ -35,7 +35,7 @@ class Navbar extends Component {
             <img className="logo" src={logoacm} alt="ACM Logo" /><br />
             <div className="navs">
               <img className="acceuil" src={acceuil} alt="ACM Logo" />
-              <Link exact to="/" className="Principale">   Accueil </Link><br />
+              <Link exact to="/Principale" className="Principale">   Accueil </Link><br />
               <img className="profile" src={profil} alt="ACM Logo" />
               <Link exact to="/profiluser" className="Profil"> Profil</Link><br />
               <img className="command" src={commande} alt="ACM Logo" />
@@ -43,7 +43,7 @@ class Navbar extends Component {
               <img className="logout" src={logout} alt="ACM Logo" />
               <Link exact to="https://acm-marketing.tn/" className="parametre"> ACM Page </Link><br />
               <img className="settings" src={settings} alt="ACM Logo" />
-              <Link exact to="/Login" className="Déconnexion">Déconnexion</Link><br />
+              <Link exact to="/" className="Déconnexion">Déconnexion</Link><br />
             </div>
           </nav>
         )}

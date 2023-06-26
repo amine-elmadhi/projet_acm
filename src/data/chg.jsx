@@ -19,7 +19,7 @@ class chg extends Component {
         </div>
         <p className='activitscg'>les activités avec ACM :</p>
         <div className='activit1cg'>
-        <Link exact to="/" className='voircg'> Retour</Link>
+        <Link exact to="/Principale" className='voircg'> Retour</Link>
         <div className='bg'><img className="bd" src={Vector} alt="bd" /></div>
           <p className='text'>chartes graphique</p>
           <p className='dis'>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
@@ -34,30 +34,7 @@ class chg extends Component {
             <p className='text0'>chartes graphique 2  </p>
             <p className='dis0'>  30/09/2020</p>
           </div>
-          <div className='activit3cg'>
-            <p className='text0'>chartes graphique 3  </p>
-            <p className='dis0'>  30/09/2020</p>
-          </div>
-          <div className='activit4cg'>
-            <p className='text0'>chartes graphique 4  </p>
-            <p className='dis0'>  30/09/2020</p>
-          </div>
-          <div className='activit5cg'>
-            <p className='text0'>chartes graphique 5  </p>
-            <p className='dis0'>  30/09/2020</p>
-          </div>
-          <div className='activit6cg'>
-            <p className='text0'>chartes graphique 6   </p>
-            <p className='dis0'>  30/09/2020</p>
-          </div>
-          <div className='activit7cg'>
-            <p className='text0'>chartes graphique 7   </p>
-            <p className='dis0'>  30/09/2020</p>
-          </div>
-          <div className='activit8cg'>
-            <p className='text0'>chartes graphique 8   </p>
-            <p className='dis0'>  30/09/2020</p>
-          </div>
+   
         </div>
         <Footer />
       </div>

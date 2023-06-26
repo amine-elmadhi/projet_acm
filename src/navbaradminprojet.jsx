@@ -61,7 +61,7 @@ class navbaradminprojet extends Component {
               <img className="logout" src={logout} alt="ACM Logo" />
               <Link exact to="https://acm-marketing.tn/" className="parametre">ACM Page</Link><br />
               <img className="settings" src={settings} alt="ACM Logo" />
-              <Link exact to="/Login" className="Déconnexion">Déconnexion</Link><br />
+              <Link exact to="/" className="Déconnexion">Déconnexion</Link><br />
             </div>
           </nav>
         )}

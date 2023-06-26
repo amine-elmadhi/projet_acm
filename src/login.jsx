@@ -85,7 +85,7 @@ class Login extends Component {
                   <p className="two2" onClick={this.handleGoBackToEmail}>1</p>
                   <p className="one1" onClick={this.handlePasswordVerification}>2</p>
                 </div>
-                <Link exact to="/Admin"> <button className="sub" > <span>Soumettre</span> </button></Link>
+                <Link exact to="/Principaleadmin"> <button className="sub" > <span>Soumettre</span> </button></Link>
               </React.Fragment>
             ) : (
               <React.Fragment>

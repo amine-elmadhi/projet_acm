@@ -3,9 +3,9 @@ import { Route, Routes } from 'react-router-dom';
 import Commande from './Commande';
 import Admin from './admin';
 import Principale from './Principale';
+import Principaleadmin from './Principaleadmin';
 import Datauser from './data/bduser';
 import Hébergement from './data/Hébergement';
- 
 import Chg from './data/chg';
 import Version from './data/version';
 import Versionadmin from './data/versionadmin';
@@ -20,8 +20,9 @@ class Routtes extends Component {
     return (
       <div>
         <Routes>
-        <Route path="/Login" element={<Login />} />
-          <Route path="/" element={<Principale />} />
+        <Route path="/" element={<Login />} />
+          <Route path="/Principale" element={<Principale />} />
+          <Route path="/Principaleadmin" element={<Principaleadmin />} />
           <Route path="/Datauser" element={<Datauser />} />
           <Route path="/Hébergement" element={<Hébergement />} />
            <Route path="/chg" element={<Chg />} />

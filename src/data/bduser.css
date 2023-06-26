@@ -45,6 +45,8 @@
 }
 
 .activitsps {
+    position: relative;
+    margin-bottom: 15px;
     padding-top: 80px;
     padding-left: 310px;
     font-family: 'Outfit', sans-serif;
@@ -172,7 +174,8 @@
 }
 
 .activit0ps {
-    position: absolute;
+    position: relative;
+    margin-bottom: 18px;
     top: 20px;
     left: 7%;
     width: 530px;
