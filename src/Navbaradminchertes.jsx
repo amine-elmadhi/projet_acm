@@ -6,14 +6,14 @@ import logout from './images/logout.png';
 import settings from './images/settings.png';
 import commande from './images/commande.png';
 
-class Navbaradmincontrat extends Component {
+class Navbaradminchertes extends Component {
   constructor(props) {
     super(props);
     this.state = {
       navbarVisible: true,
       showForm: false,
-      projectName: '',
-      selectedFile: null
+      sitewebName: '',
+      liendecharte: ''
     };
   }
 
@@ -25,45 +25,35 @@ class Navbaradmincontrat extends Component {
 
   handleAjout = () => {
     this.setState((prevState) => ({
-      showForm: !prevState.showForm
+      showForm: !prevState.showForm,
+      sitewebName: '',
+      liendecharte: ''
     }));
   };
 
   handleChange = (event) => {
     this.setState({
-      projectName: event.target.value
-    });
-  };
-
-  handleFileChange = (event) => {
-    this.setState({
-      selectedFile: event.target.files[0]
+      [event.target.name]: event.target.value
     });
   };
 
   handleSubmit = (event) => {
     event.preventDefault();
-    const { projectName } = this.state;
+    const { sitewebName, liendecharte } = this.state;
 
- 
-    const newContract = {
-      projectName,
-      date: new Date().toLocaleDateString()
-    };
-
-    // Pass the new contract to the parent component
-    this.props.addContract(newContract);
+    // Pass the new version details to the parent component
+    this.props.addVersion({ sitewebName, liendecharte });
 
     // Reset the form
     this.setState({
       showForm: false,
-      projectName: '',
-      selectedFile: null
+      sitewebName: '',
+      liendecharte: ''
     });
   };
 
   render() {
-    const { navbarVisible, showForm } = this.state;
+    const { navbarVisible, showForm, sitewebName, liendecharte } = this.state;
 
     return (
       <div>
@@ -75,7 +65,9 @@ class Navbaradmincontrat extends Component {
             <img className="logoadmin" src={logoacm} alt="ACM Logo" /><br />
             <div className="navsadmin">
               <img className="Ajoutimg" src={commande} alt="ACM Logo" />
-              <button className="Ajout" onClick={this.handleAjout}>Ajout</button><br />
+              <button className="Ajout" onClick={this.handleAjout}>
+                {showForm ? 'Annuler' : 'Ajout'}
+              </button><br />
 
               <img className="logout" src={logout} alt="ACM Logo" />
               <Link exact to="https://acm-marketing.tn/" className="parametre">ACM Page</Link><br />
@@ -86,21 +78,23 @@ class Navbaradmincontrat extends Component {
         )}
         {showForm && (
           <form className='fomrpro' onSubmit={this.handleSubmit}>
-            <p>Nom du projet:</p>
+            <p>Nom de charte:</p>
             <input
               type="text"
-              name="projectName"
-              placeholder="Nom du projet"
-              value={this.state.projectName}
+              name="sitewebName"
+              placeholder="Nom de charte"
+              value={sitewebName}
               onChange={this.handleChange}
             />
+            <p>lien de charte:</p>
             <input
-            className='selectfl'
-              type="file"
-              name="selectedFile"
-              onChange={this.handleFileChange}
+              type="text"
+              name="liendecharte"
+              placeholder="liendecharte"
+              value={liendecharte}
+              onChange={this.handleChange}
             />
-            <button type="submit">Submit</button>
+            <button type="submit">Ajouter</button>
           </form>
         )}
       </div>
@@ -108,4 +102,4 @@ class Navbaradmincontrat extends Component {
   }
 }
 
-export default Navbaradmincontrat;
+export default Navbaradminchertes;

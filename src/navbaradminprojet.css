@@ -175,3 +175,19 @@
     border-radius: 4px;
     cursor: pointer;
 }
+
+.selectfl {
+    background-color: #ccc;
+    border: 1px solid green;
+    display: inline;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    line-height: 14px;
+    color: #04293A;
+    text-decoration: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}

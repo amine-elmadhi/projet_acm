@@ -16,10 +16,10 @@ class Principale extends Component {
         <Navbar />
 
         <div className='not'>
-          <img className='hind' src={userimg} alt="bd" />
+        <Link exact to="/profiluser"><img className='hind' src={userimg} alt="bd" /></Link>
           <p className='usr'>client 444</p>
           <p className='mailuser'>client444@gmail.com</p>
-          <img className='notif' src={bell} alt="bd" />
+          <Link exact to="/Commande"> <img className='notif' src={bell} alt="bd" /></Link>
         </div>
 
         <p className='activitspr'>les activités avec ACM :</p>
@@ -36,7 +36,7 @@ class Principale extends Component {
           <p className='dis'>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
         </div>
         <div className='activit3pr'>
-          <Link exact to="/chg" className='voirpr'> Voir tout</Link>
+          <Link exact to="/chartegadmin" className='voirpr'> Voir tout</Link>
           <div className='bg'><img className="bd" src={Vector} alt="bd" /></div>
           <p className='text'>Chartes graphique</p>
           <p className='dis'>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
