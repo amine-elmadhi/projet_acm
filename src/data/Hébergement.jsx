@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Navbar from '../navbar';
+import Navbaradmin from '../navbaradmin';
 import { Link } from 'react-router-dom';
 import './Hébergement.css';
 import userimg from '../images/userimg.png';
@@ -334,7 +334,7 @@ class Hébergement extends Component {
           </div>
         </div>
 
-        <Navbar />
+        <Navbaradmin />
       </div>
     );
   }

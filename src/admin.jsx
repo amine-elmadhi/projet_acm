@@ -1,6 +1,5 @@
 import React, { Component, createRef } from 'react';
 import Navbaradmin from './navbaradmin';
- 
 import './admin.css';
 import { Link } from 'react-router-dom';
 
@@ -14,6 +13,32 @@ class FormInterface extends Component {
       birthday: '',
       dateOfAjout: ''
     };
+  }
+
+  componentDidMount() {
+    // Check if props contain a selected client
+    const { selectedClient } = this.props;
+    if (selectedClient) {
+      this.setState({ ...selectedClient });
+    }
+  }
+
+  componentDidUpdate(prevProps) {
+    // Check if props have changed and update the state accordingly
+    if (prevProps.selectedClient !== this.props.selectedClient) {
+      const { selectedClient } = this.props;
+      if (selectedClient) {
+        this.setState({ ...selectedClient });
+      } else {
+        this.setState({
+          name: '',
+          email: '',
+          phoneNumber: '',
+          birthday: '',
+          dateOfAjout: ''
+        });
+      }
+    }
   }
 
   handleChange = (e) => {
@@ -37,54 +62,54 @@ class FormInterface extends Component {
       <div className="form-interface">
         <form onSubmit={this.handleSubmit}>
           <div className='input1'>
-          <p> Name :</p> 
-          <input
-            type="text"
-            name="name"
-            placeholder="Nom du client"
-            value={this.state.name}
-            onChange={this.handleChange}
-          />  
-          <p> Email: :</p>
-          <input
-            type="email"
-            name="email"
-            placeholder="Email du client"
-            value={this.state.email}
-            onChange={this.handleChange}
-          />
+            <p> Name :</p>
+            <input
+              type="text"
+              name="name"
+              placeholder="Nom du client"
+              value={this.state.name}
+              onChange={this.handleChange}
+            />
+            <p> Email: :</p>
+            <input
+              type="email"
+              name="email"
+              placeholder="Email du client"
+              value={this.state.email}
+              onChange={this.handleChange}
+            />
           </div>
           <br />
           <div className='input2'>
-          <p> PhoneNumber:</p>
-          <input
-            type="tel"
-            name="phoneNumber"
-            placeholder="Numéro de téléphone"
-            value={this.state.phoneNumber}
-            onChange={this.handleChange}
-          />
-          <p> Birthday:</p>
-          <input
-            type="text"
-            name="birthday"
-            placeholder="Date de naissance"
-            value={this.state.birthday}
-            onChange={this.handleChange}
-          />
-           </div>
-           <div className='input3'>
-          <p className='dateOfAjouttext'> Date d'ajout :</p>
-          <input
-          className='dateOfAjout'
-            type="text"
-            name="dateOfAjout"
-            placeholder="Date d'ajout"
-            value={this.state.dateOfAjout}
-            onChange={this.handleChange}
-          />
-         
-          <button className='last' type="submit">Submit</button>
+            <p> PhoneNumber:</p>
+            <input
+              type="tel"
+              name="phoneNumber"
+              placeholder="Numéro de téléphone"
+              value={this.state.phoneNumber}
+              onChange={this.handleChange}
+            />
+            <p> Birthday:</p>
+            <input
+              type="text"
+              name="birthday"
+              placeholder="Date de naissance"
+              value={this.state.birthday}
+              onChange={this.handleChange}
+            />
+          </div>
+          <div className='input3'>
+            <p className='dateOfAjouttext'> Date d'ajout :</p>
+            <input
+              className='dateOfAjout'
+              type="text"
+              name="dateOfAjout"
+              placeholder="Date d'ajout"
+              value={this.state.dateOfAjout}
+              onChange={this.handleChange}
+            />
+
+            <button className='last' type="submit">Submit</button>
           </div>
         </form>
       </div>
@@ -100,7 +125,7 @@ class Admin extends Component {
       showForm: false,
       selectedClientIndex: null
     };
-    this.formInterfaceRef = createRef(); // Create a ref for the form interface element
+    this.formInterfaceRef = createRef();
   }
 
   componentDidMount() {
@@ -154,10 +179,8 @@ class Admin extends Component {
       const selectedClient = clients[index];
       this.setState({
         showForm: true,
-        selectedClientIndex: index,
-        ...selectedClient
+        selectedClientIndex: index
       }, () => {
-        // Scroll to the form interface element
         if (this.formInterfaceRef.current) {
           this.formInterfaceRef.current.scrollIntoView({
             behavior: 'smooth',
@@ -169,6 +192,9 @@ class Admin extends Component {
   };
 
   render() {
+    const { selectedClientIndex, clients } = this.state;
+    const selectedClient = selectedClientIndex !== null ? clients[selectedClientIndex] : null;
+
     return (
       <div>
         <Navbaradmin
@@ -179,7 +205,7 @@ class Admin extends Component {
         <p className="activits">les clients de ACM:</p>
 
         <div className="activitesadmin">
-          {this.state.clients.map((client, index) => (
+          {clients.map((client, index) => (
             <div className="activit1admin" key={index}>
               <div className="activitadmin">
                 <p className="text0">{client.name}</p>
@@ -207,8 +233,12 @@ class Admin extends Component {
         </div>
 
         <div ref={this.formInterfaceRef} />
-        {this.state.showForm && <FormInterface handleAjout={this.handleAjout} />}
-      
+        {this.state.showForm && (
+          <FormInterface
+            handleAjout={this.handleAjout}
+            selectedClient={selectedClient}
+          />
+        )}
       </div>
     );
   }
