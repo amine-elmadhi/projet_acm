@@ -107,7 +107,7 @@ class chartegadmin extends Component {
                   <p className='text0charte'>{version.sitewebName}</p>
                   <a href={version.liendecharte} className='dis0charte'>{version.liendecharte}</a>
                   <button
-                   className="subbd"
+                   className="subch"
                     onClick={() => this.setState({
                       editIndex: index,
                       editSitewebName: version.sitewebName,
@@ -116,7 +116,7 @@ class chartegadmin extends Component {
                   >
                     Edit
                   </button>
-                  <button className="subbd" onClick={() => this.deleteVersion(index)}>Delete</button>
+                  <button className="delch" onClick={() => this.deleteVersion(index)}>Delete</button>
                 </>
               )}
             </div>
